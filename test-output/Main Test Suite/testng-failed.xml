@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Main Test Suite]">
+  <test name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.tekstrom.testng.DemoTestNG">
+        <methods>
+          <include name="searchtshirt"/>
+          <include name="TestLogin"/>
+          <include name="aftmeth"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.tekstrom.testng.DemoTestNG -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.tekstrom.testng.DemoTestNG1">
+        <methods>
+          <include name="listtheprice"/>
+          <include name="setUp"/>
+          <include name="aftmeth"/>
+          <include name="addtocart"/>
+        </methods>
+      </class> <!-- com.tekstrom.testng.DemoTestNG1 -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Main Test Suite] -->
